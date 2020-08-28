@@ -1,6 +1,6 @@
 # Snack bar
 
-** Version 0.0.1**
+** Version 0.0.1 **
 
 Simple springboot api to register snacks
 
@@ -8,7 +8,7 @@ Simple springboot api to register snacks
 ##Dependencies
 
 - Mongodb
--Spring Web
+- Spring Web
 
 ---
 ## Contributor

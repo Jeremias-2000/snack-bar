@@ -9,6 +9,8 @@ Simple springboot api to register snacks
 
 - Mongodb
 - Spring Web
+- Maven
+-Junit
 
 ---
 ## Contributor

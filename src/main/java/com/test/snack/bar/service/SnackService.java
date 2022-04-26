@@ -16,7 +16,7 @@ public class SnackService {
         return repository.findAll();
     }
 
-    public Snack getById(String id){
+    public Snack getById(Long id){
         return repository.findById(id).orElse(null);
     }
 
@@ -24,14 +24,14 @@ public class SnackService {
         repository.save(snack);
     }
 
-    public void update(String id, Snack update){
+    public void update(Long id, Snack update){
         Snack exist = repository.findById(id).orElse(update);
         exist.setName(update.getName());
         exist.setQuantity(exist.getQuantity());
         exist.setPrice(exist.getPrice());
         repository.save(exist);
     }
-    public void deleteSnackById(String id){
+    public void deleteSnackById(Long id){
         repository.deleteById(id);
     }
 }
